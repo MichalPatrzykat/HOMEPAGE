@@ -8,7 +8,7 @@ let  header_tittle= document.querySelector(".header_tittle");
 button.addEventListener("click", () => {
     header_tittle.classList.toggle("hideme");
     button.innerText =
-    header_tittle.classList.contains("hideme") ? "Skasuj Nagłówek" : "Pokaż nagłówek";
+    header_tittle.classList.contains("hideme") ? "Pokaż Nagłówek" : "Skasuj nagłówek";
     
 
 });
